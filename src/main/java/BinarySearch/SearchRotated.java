@@ -12,19 +12,19 @@ Given the array nums after the possible rotation and an integer target, return t
 You must write an algorithm with O(log n) runtime complexity.
 * */
 public class SearchRotated {
-    public int search(int[] nums, int target) {
-        int l = 0;
-        int r = nums.length - 1;
-
-        while (l <= r){
-            int m = (l + r)/2;
-            if(nums[m] == target){
-                return m;
-            }
-            int j = isPivot(m, nums);
-            if(j != )
-        }
-    }
+//    public int search(int[] nums, int target) {
+//        int l = 0;
+//        int r = nums.length - 1;
+//
+//        while (l <= r){
+//            int m = (l + r)/2;
+//            if(nums[m] == target){
+//                return m;
+//            }
+//            int j = isPivot(m, nums);
+//
+//        }
+//    }
 
     private int isPivot(int m, int[] nums) {
         if (nums[m] > nums[m+1]){
