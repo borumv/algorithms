@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jcstress-latest">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jcstress-latest.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
