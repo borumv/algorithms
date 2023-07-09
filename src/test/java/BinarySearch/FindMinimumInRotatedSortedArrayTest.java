@@ -1,6 +1,7 @@
 package BinarySearch;
 
 import org.junit.jupiter.api.Test;
+import udemy.BinarySearch.FindMinimumInRotatedSortedArray;
 
 import static org.junit.jupiter.api.Assertions.*;
 

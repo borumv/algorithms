@@ -1,5 +1,6 @@
 package TwoPointers;
 
+import AlgoCourse2022.TwoPointers.MergeSortedArray;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

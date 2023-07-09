@@ -1,6 +1,7 @@
 package BitMasks;
 
 import org.junit.jupiter.api.Test;
+import udemy.BitMasks.NumberOfSteps;
 
 import static org.junit.jupiter.api.Assertions.*;
 

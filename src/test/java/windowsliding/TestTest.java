@@ -1,5 +1,6 @@
 package windowsliding;
 
+import AlgoCourse2022.windowsliding.TestWindow;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
