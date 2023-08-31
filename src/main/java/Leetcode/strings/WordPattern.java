@@ -6,11 +6,13 @@ import java.util.Set;
 
 public class WordPattern {
 
-    public boolean wordPattern(String pattern, String s) {
+
+    public static boolean wordPattern(String pattern, String s) {
         String[] words = s.split(" ");
         if (words.length != pattern.length())
             return false;
-        Map index = new HashMap();
+        Map<Object, Object> index = new HashMap<>();
+
 
         /*
         * abbaa
@@ -24,9 +26,20 @@ public class WordPattern {
         * index.put(pattern.charAt(i), i) - 1
         * index.put(words[i], i) - 0
         * */
-        for (Integer i=0; i<words.length; ++i)
+        for (int i = 0; i<words.length; ++i)
             if (index.put(pattern.charAt(i), i) != index.put(words[i], i))
                 return false;
         return true;
+    }
+
+    public static void main(String[] args) {
+
+        var isAcc = wordPattern("abbaa", "cat dog dog cat cat");
+        String s = new String();
+
+        System.out.println(s);
+        System.out.println(isAcc);
+
+
     }
 }
